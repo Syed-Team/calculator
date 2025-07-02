@@ -23,7 +23,7 @@ jobs:
       run: ./mvnw clean package -DskipTests
 
     - name: Build Docker image
-      run: docker build -t your-dockerhub-syedhub/springboot-api .
+      run: docker build -t syedhub/springboot-api .
 
     - name: Log in to Docker Hub
       uses: docker/login-action@v3
@@ -32,4 +32,4 @@ jobs:
         password: ${{ secrets.DOCKER_PASSWORD }}
 
     - name: Push Docker image
-      run: docker push your-dockerhub-syedhub/springboot-api
+      run: docker push syedhub/springboot-api
