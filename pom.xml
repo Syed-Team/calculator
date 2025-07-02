@@ -9,9 +9,14 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.example</groupId>
+HEAD
 	<artifactId>demo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>demo</name>
+	<artifactId>calculator</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>calculator</name>
+	 815edbda8c20ae45b7044ec03c7580a9cba4ac21
 	<description>Demo project for Spring Boot</description>
 	<url/>
 	<licenses>
@@ -37,12 +42,15 @@
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
+		HEAD
 			<artifactId>spring-boot-devtools</artifactId>
 			<scope>runtime</scope>
 			<optional>true</optional>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
+
+	815edbda8c20ae45b7044ec03c7580a9cba4ac21
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
